@@ -1,0 +1,108 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:'poppin',sans-serif;
+}
+.container{
+    width: 100%;
+}
+.navbar{
+    height:70px;
+    font-weight:bold;
+    font-size:15px;
+    background-color:#fcf9f9;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar span{
+    display:flex;
+    flex-direction:row;
+    gap:10px;
+    font-size:20px;
+}
+.navbar span .dot{
+    font-size:12px;
+}
+.navbar span i{
+    background-color:rgb(27, 170, 70);
+    padding:20px;
+    border-radius:50%;
+    align-content:center;
+}
+.navbar ul,li{
+    display:inline;
+    list-style-type:none;
+}
+.navbar li{
+    padding:25px 20px;
+}
+.navbar li:hover{
+    background-color: rgb(41, 180, 41);
+}
+.navbar li:hover a{
+    background-color: rgb(41, 180, 41);
+    color:#fff;
+}
+.navbar ul li a{
+    color:black;
+    text-decoration:none;
+    text-transform: UpperCase;
+}
+
+@media only screen and (max-width:700px){
+    .container{
+        width: 100%;
+    }
+    .navbar{
+        height:20px;
+        font-weight:900;
+        font-size:4px;
+        background-color:#fcf9f9;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .navbar span{
+        display:flex;
+        flex-direction:row;
+        align-items: center;
+        gap:5px;
+    }
+    .navbar span div{
+        line-height:5px;
+        font-size:8px;
+        font-weight: 900;
+    }
+    .navbar span .dot{
+        font-size:4px;
+    }
+    .navbar span i{
+        background-color:rgb(27, 170, 70);
+        padding:3px 5px;
+        color:#fff;
+        font-size:10px;
+        border-radius:50%;
+        align-content:center;
+    }
+    .navbar ul,li{
+        display:inline;
+        list-style-type:none;
+    }
+    .navbar li{
+        padding:10px 6px;
+    }
+    .navbar li:hover{
+        background-color: rgb(41, 180, 41);
+    }
+    .navbar li:hover a{
+        background-color: rgb(41, 180, 41);
+        color:#fff;
+    }
+    .navbar ul li a{
+        color:black;
+        text-decoration:none;
+        text-transform: UpperCase;
+    }
+}
